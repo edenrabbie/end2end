@@ -1,4 +1,4 @@
-b# Build settings
+# Build settings
 permalink: /blog/:year/:title/
 markdown: kramdown
 highlighter: pygments
@@ -41,7 +41,6 @@ author:
   medium: https://medium.com/@edenrabbie
 
 # navbar pages
-navbar:
-
+#navbar:
 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
