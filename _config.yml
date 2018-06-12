@@ -1,4 +1,4 @@
-# Build settings
+b# Build settings
 permalink: /blog/:year/:title/
 markdown: kramdown
 highlighter: pygments
@@ -15,37 +15,33 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: end2end
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
+title: Eden Rabbie
+description: "Product manager in UAE"
+keywords: "product management, startups, business strategy, data science"
+url: http://edenrabbie.github.io
 baseurl: "/end2end"
 
-google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/end2end
-disqus_shortname: "nandothemes"
-disqus_site_shortname: "nandothemes"
+google_analytics: 
+repo: http://github.com/edenrabbie/end2end
+disqus_shortname: 
+disqus_site_shortname: 
 
 # Author settings
 author:
-  name: Fernando Moreira
-  job: Frontend Engineer
-  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  name: Eden Rabbie
+  job: Product Manager
+  bio: "At the intersection of startups and product management, to create value and outsmart doubt."
   thumb: /images/author.jpg
-  email: nandomoreira.me@gmail.com
-  url: https://nandomoreira.me/
-  github: https://github.com/nandomoreirame
-  twitter: https://twitter.com/umdevux
-  facebook: https://facebook.com/umdevux
-  linkedin: https://linkedin.com/in/nandomoreirame
+  email: eden@edenrabbie.com
+  url: https://edenrabbie.com/
+  #github: https://github.com/nandomoreirame
+  twitter: https://twitter.com/edenrabbie
+  #facebook: https://facebook.com/umdevux
+  linkedin: https://linkedin.com/in/edenrabbie
+  medium: https://medium.com/@edenrabbie
 
 # navbar pages
 navbar:
-  - slug: about
-    title: About
-  - slug: icons
-    title: Icons
-  - slug: blog
-    title: Blog
+
 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
